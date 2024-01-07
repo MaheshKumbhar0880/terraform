@@ -1,0 +1,50 @@
+[
+    {
+      "name": "id",
+      "type": "INT64",
+      "mode": "REQUIRED",
+      "description": "Unique identifier for records"
+    },
+    {
+      "name": "first_name",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "First name of the person"
+    },
+    {
+      "name": "last_name",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Last name of the person"
+    },
+    {
+      "name": "age",
+      "type": "INT64",
+      "mode": "NULLABLE",
+      "description": "Age of the person"
+    },
+    {
+      "name": "email",
+      "type": "STRING",
+      "mode": "REQUIRED",
+      "description": "Email address of the person"
+    },
+    {
+      "name": "is_student",
+      "type": "BOOL",
+      "mode": "NULLABLE",
+      "description": "Indicates if the person is a student"
+    },
+    {
+      "name": "city",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "City where the person resides"
+    },
+    {
+      "name": "salary",
+      "type": "FLOAT64",
+      "mode": "NULLABLE",
+      "description": "Salary of the person"
+    }
+]
