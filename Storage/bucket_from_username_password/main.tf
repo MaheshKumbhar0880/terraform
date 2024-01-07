@@ -13,8 +13,3 @@ provider "google" {
   region = "us-central1"
   zone = "us-central1-a"
 }
-
-resource "google_storage_bucket" "gcp1" {
-  name = "bucket-from-tf-mahesh-1"
-  location = "us-central1"
-}
